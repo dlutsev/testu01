@@ -1,0 +1,282 @@
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 375000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   46
+ChiSquare statistic                   :   45.91
+p-value of test                       :    0.48
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   45
+ChiSquare statistic                   :   38.54
+p-value of test                       :    0.74
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   91.27
+p-value of test                       :    0.01
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   38
+ChiSquare statistic                   :   30.11
+p-value of test                       :    0.82
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   23
+ChiSquare statistic                   :   23.54
+p-value of test                       :    0.43
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.16
+
+Generator state:
+ 48000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 46875,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  104
+ChiSquare statistic                   :   81.66
+p-value of test                       :    0.95
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  105
+ChiSquare statistic                   :  107.00
+p-value of test                       :    0.43
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  485.70
+p-value of test                       :    0.79
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  100
+ChiSquare statistic                   :  104.43
+p-value of test                       :    0.36
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   55
+ChiSquare statistic                   :   45.49
+p-value of test                       :    0.82
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.14
+
+Generator state:
+ 48000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 4791,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  185.28
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  199
+ChiSquare statistic                   :  222.70
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  440
+ChiSquare statistic                   :  412.83
+p-value of test                       :    0.82
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  199
+ChiSquare statistic                   :  196.05
+p-value of test                       :    0.55
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  116
+ChiSquare statistic                   :  108.75
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.12
+
+Generator state:
+ 47986656  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 375000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.94
+p-value of test                       :    0.97
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.04
+
+Generator state:
+ 48000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N =  2,  n = 8000000,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 8000000
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  34359.738
+       EColl = n^2 / (2k) =  116.4153218
+       Hashing =   TRUE
+
+   For Delta > -1, we use the normal approximation
+   Mean and standard deviation: 
+       Collision test       Delta =     1,    Mu =  1.3743895e+11,    Sigma =     524288
+
+       CollisionOver:   density = n / k =  1 /   34359.74
+       Expected number of collisions = Mu =     116.41
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :      232.83
+Observed number of collisions         :      192
+p-value of test                       :    0.9967
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :     549739814080
+  j =  1                              :         15999616
+  j =  2                              :              192
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.76
+p-value of test                       :    0.06
+
+Kolmogorov-Smirnov- statistic = D-    :    0.16
+p-value of test                       :    0.81
+
+Anderson-Darling statistic = A2       :    1.48
+p-value of test                       :    0.18
+
+For the sum of the N observations, we use
+      the Normal approximation:
+Standardized empirical mean           :   -1.20
+p-value of test                       :    0.89
+
+Standardized empirical correlation    :    1.00
+p-value of test                       :    0.16
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:05.08
+
+Generator state:
+ 16000000  bits have been read.
+
+
+
+

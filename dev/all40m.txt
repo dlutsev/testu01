@@ -1,0 +1,837 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          Starting Rabbit:   nb = 320000000
+          Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+smultin_MultinomialBitsOver test:
+-----------------------------------------------
+   N = 30,  n = 9696960,  r =  0,   s = 32,   L =   38,
+       Sparse =   TRUE
+
+       Number of bits = n = 9696960
+       Number of cells = 2^L =       274877906944
+       Expected number per cell =  1 /  28346.813
+       EColl = n^2 / (2k) =  171.0414531
+       Hashing =   TRUE
+
+       Collision test
+       CollisionOver:   density = n / k =  1 /   28346.81
+       Expected number of collisions = Mu =     171.04
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     5131.15
+Observed number of collisions         :     5232
+p-value of test                       :    0.08
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    8246046304752
+  j =  1                              :        290898336
+  j =  2                              :             5232
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:01:32.81
+
+Generator state:
+ 290908800  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  3,  n = 1666666,  r =  0,  t = 2
+
+
+-----------------------------------------------
+Max of all bit distances              :   20.00
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.98
+
+Generator state:
+ 319999872  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+snpair_ClosePairsBitMatch test:
+-----------------------------------------------
+   N =  3,  n = 833333,  r =  0,  t = 4
+
+
+-----------------------------------------------
+Max of all bit distances              :    9.00
+p-value of test                       :    0.61
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.31
+
+Generator state:
+ 319999872  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 10000000,   r = 0,   s = 30,   L = 15
+
+   Sequences of n = (K + Q)L =    300000000 bits
+   Q = 10000000 initialization blocks
+   K = 10000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.20
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.42
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 45760,  r =  0,    s = 32
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    9
+Chi2 statistic for size of jumps      :    9.96
+p-value of test                       :    0.35
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    0.67
+p-value of test                       :    0.25
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.25
+
+Generator state:
+ 45760  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N =  1,  n = 268435456,  r =  0,   s =   32,   k =   28
+
+
+-----------------------------------------------
+Normal statistic                      :    0.19
+p-value of test                       :    0.43
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.56
+
+Generator state:
+ 268435456  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sspectral_Fourier1 test:
+-----------------------------------------------
+   N =  1,  n = 1048576,  r =  0,   s =   32,   k =   20
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.34
+p-value of test                       :    0.91
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.82
+
+Generator state:
+ 1048576  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 38910,  n = 8192,  r =  0,   s =   32,   k =   13
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.022
+p-value of test                       :    0.14
+
+Kolmogorov-Smirnov- statistic = D-    :   0.014
+p-value of test                       :    0.46
+
+Anderson-Darling statistic = A2       :    1.48
+p-value of test                       :    0.18
+
+-----------------------------------------------
+CPU time used                    :  00:00:03.82
+
+Generator state:
+ 319995840  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 600,  r =  0,   s = 32,   L = 533312
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    8.33
+p-value of test                       :    0.40
+
+-----------------------------------------------
+Global longest run of 1               :   28.00
+p-value of test                       :    0.45
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.18
+
+Generator state:
+ 319987200  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s =   31
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  171
+Chi-square statistic                  :  161.93
+p-value of test                       :    0.68
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.34
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingWeight test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 32,   L = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   26
+Chi-square statistic                  :   24.14
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 32,   L = 32
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.71
+p-value of test                       :    0.24
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   s = 32,   L = 64
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.32
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L = 128
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.22
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.25
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 32,   L = 16,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  241
+Chi-square statistic                  :  248.90
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.28
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 5000000,  r =  0,   s = 32,   L = 32,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  437
+Chi-square statistic                  :  480.29
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.26
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L = 64,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          :  777
+Chi-square statistic                  :  821.15
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.23
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 319999937,  r =  0,   s = 32,   d = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    0.23
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.34
+
+Generator state:
+ 319999968  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N =  1,  n = 319999938,  r =  0,   s = 32,   d = 2
+
+
+-----------------------------------------------
+Normal statistic                      :    0.73
+p-value of test                       :    0.23
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.35
+
+Generator state:
+ 319999968  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 64000000,  r =  0,   s =   32
+
+
+-----------------------------------------------
+Total number of 1 runs:  64000006
+
+Number of degrees of freedom          :   44
+Chi2 statistic for number of runs     :   34.08
+p-value of test                       :    0.86
+
+
+-----------------------------------------------
+Total number of bits:  256001088
+
+Normal statistic for number of bits   :   0.048
+p-value of test                       :    0.48
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.01
+
+Generator state:
+ 256001088  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 312500,  r =  0,    s = 32,    L = 32,    k = 32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    4
+Chi-square statistic                  :    7.42
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.28
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 3125,  r =  0,    s = 32,    L = 320,    k = 320
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.67
+p-value of test                       :    0.64
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.51
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 305,  r =  0,    s = 32,    L = 1024,    k = 1024
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    4.53
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:00:02.16
+
+Generator state:
+ 319815680  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 2500000,  r =  0,   s = 32,   L0 =  128,   L1 =  128
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   50
+ChiSquare statistic                   :   42.59
+p-value of test                       :    0.76
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   50
+ChiSquare statistic                   :   39.03
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   64
+ChiSquare statistic                   :   54.14
+p-value of test                       :    0.81
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   42
+ChiSquare statistic                   :   44.08
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   25
+ChiSquare statistic                   :   26.67
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:01.12
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 312500,  r =  0,   s = 32,   L0 = 1024,   L1 = 1024
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  122
+ChiSquare statistic                   :  143.50
+p-value of test                       :    0.09
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  122
+ChiSquare statistic                   :  126.41
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  512
+ChiSquare statistic                   :  517.06
+p-value of test                       :    0.43
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  115
+ChiSquare statistic                   :  103.07
+p-value of test                       :    0.78
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   63
+ChiSquare statistic                   :   65.10
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.91
+
+Generator state:
+ 320000000  bits have been read.
+
+
+
+
+***********************************************************
+HOST = Labs, Linux
+
+ufile_CreateReadBin:   random_data.bin
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 31948,  r =  0,   s = 32,   L0 = 10016,   L1 = 10016
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  280
+ChiSquare statistic                   :  251.12
+p-value of test                       :    0.89
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  281
+ChiSquare statistic                   :  289.60
+p-value of test                       :    0.35
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 2232
+ChiSquare statistic                   : 2176.33
+p-value of test                       :    0.80
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  277
+ChiSquare statistic                   :  265.89
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  151
+ChiSquare statistic                   :  125.29
+p-value of test                       :    0.94
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:00.83
+
+Generator state:
+ 319991168  bits have been read.
+
+
+
+
+
+========= Summary results of Rabbit =========
+
+ Version:          TestU01 1.2.3
+ File:             random_data.bin
+ Number of bits:   320000000
+ Number of statistics:  40
+ Total CPU time:   00:02:13.19
+
+ All tests were passed
+
+
+
